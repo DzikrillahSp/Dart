@@ -1,7 +1,3 @@
-import 'dart:ffi';
-
-import 'dart:html';
-
 void main() {
   var flags = 1;
   while (flags < 10) {
