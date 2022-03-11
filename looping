@@ -1,0 +1,56 @@
+//while
+void main() {
+  var i = 2;
+  print('LOOPING PERTAMA'); 
+  
+ while (i <= 20) {
+    print('$i - I LOVE CODING');
+    i += 2;
+  }
+  
+
+  print('LOOPING KEDUA');
+   i -= 2;
+  while (i >= 2) {
+    print('$i - I will become a mobile developer');
+    i -= 2;
+}
+}
+
+//for
+void main() {
+
+  
+   for (var i  =1; i<20; i++){
+            if(i%2==0  ){
+               print( '$i - Berkualitas');
+          
+            }else{
+              
+                if(i%3==0){
+                   print( '$i  - I Love Coding ');
+                }else{
+                  print('$i  - Santai');
+                }
+            } 
+   }
+}
+
+//persegi panjang
+void main() {
+  
+for (var i =1; i<= 4; i++){
+  print('#' * 8);
+}
+    
+}
+
+//tangga
+
+void main() {
+  
+for (var i =1; i<= 7; i++){
+  print('#' * i);
+}
+    
+}
