@@ -1,5 +1,5 @@
 void main() {
- var warungStatus = "open";
+ var warungStatus = "tutup";
  if (warungStatus == "open") {
  print("Saya akan membeli Nasi Pecel dan Kopi");
  } else {
