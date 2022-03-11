@@ -1,5 +1,5 @@
 void main() {
-  for (var deret = 0 ; deret <10; deret +=2) {
+  for (var deret = 0 ; deret <5; deret +=2) {
     print ('Iterasi dengan Increment counter 2 : ' + deret.toString());
   }
   print('-----------------------');
