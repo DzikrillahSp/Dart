@@ -1,10 +1,9 @@
-void main (){
-  var buttonPushed = 1; 
-  switch (buttonPushed) {
-    case 1 : {print('Use Corruption!'); break;}
-    case 2 : {print('Use Shame and Toad!'); break;}
-    case 3 : {print('Hide'); break;}
-    case 4 : {print('Kill them!'); break;}
-    default : {print('The mission is canceled');}
-  }
+void main() {
+var buttonPushed = 5;
+switch(buttonPushed) {
+ case 1: { print('Letakkan HP!'); break; }
+ case 2: { print('Kecilin volume HP!'); break; }
+ case 3: { print('Gedein volume HP!'); break; }
+ case 4: { print('matikan suara HP!'); break; }
+ default: { print('Tidak terjadi apa-apa'); }}
 }
