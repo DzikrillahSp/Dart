@@ -1,5 +1,5 @@
 void main (){
-  var buttonPushed = 5; 
+  var buttonPushed = 4; 
   switch (buttonPushed) {
     case 1 : {print('Segala sesuatu memiliki kesudahan, yang sudah berakhir biarlah berlalu dan yakinlah semua akan baik-baik saja!'); break;}
     case 2 : {print('Setiap detik sangatlah berharga karena waktu mengetahu banyak hal, termasuk rahasia hati!'); break;}
@@ -8,6 +8,6 @@ void main (){
     case 5 : {print('Hidup tak selamanya tentang pacar'); break;}
     case 6 : {print('Rumah bukan hanya sebuah tempat, tetapi itu adalah perasaan'); break;}
     case 7 : {print('Hanya seseorang yang takut yang bisa bertindak berani. Tanpa rasa takut itu, tidak ada apapun yang bisa disebut berani'); break;}
-    default : {print('Quotes Mutiara');}
+    default : {print('Tidak Terdapat Quotes');}
   }
 }
